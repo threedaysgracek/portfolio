@@ -1,14 +1,5 @@
 
-// import scripts
 
-
-const SCRIPTS = [
-  `/scripts/header-footer.js`
-]
-
-SCRIPTS.forEach((script) => {
-  $.getScript(script);
-})
 
 // import stylesheets
 const STYLESHEETS = [
@@ -23,4 +14,14 @@ STYLESHEETS.forEach((stylesheet) => {
 
   $('head').append(stylesheet);
   
+})
+// import scripts
+
+
+const SCRIPTS = [
+  `/scripts/header-footer.js`
+]
+
+SCRIPTS.forEach((script) => {
+  $.getScript(script);
 })
